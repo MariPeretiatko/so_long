@@ -6,7 +6,7 @@
 /*   By: mperetia <mperetia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 01:50:06 by mperetia          #+#    #+#             */
-/*   Updated: 2023/10/30 12:05:14 by mperetia         ###   ########.fr       */
+/*   Updated: 2024/01/14 13:32:46 by mperetia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,7 +94,7 @@ void	init_player_exit_map(t_game *game, int i, int j)
 	{
 		mlx_put_image_to_window(game->mlx, game->mlx_win, game->floor,
 			j * 32, i * 32);
-		mlx_put_image_to_window(game->mlx, game->mlx_win, game->character.img,
+		mlx_put_image_to_window(game->mlx, game->mlx_win, game->character.img_right,
 			j * 32, i * 32);
 	}
 }

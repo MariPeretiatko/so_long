@@ -6,7 +6,7 @@
 /*   By: mperetia <mperetia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 14:56:01 by mperetia          #+#    #+#             */
-/*   Updated: 2023/10/30 12:09:10 by mperetia         ###   ########.fr       */
+/*   Updated: 2024/01/14 13:28:44 by mperetia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,9 +49,11 @@ void	init_textures(t_game *game)
 	game->exit.img = mlx_xpm_file_to_image(game->mlx, animation_exit(0),
 			&img_width, &img_height);
 	check_map_name(game->exit.img, 2);
-	game->character.img = mlx_xpm_file_to_image(game->mlx, PATH_CHARACTER_L,
+	game->character.img_right = mlx_xpm_file_to_image(game->mlx, PATH_CHARACTER_R,
 			&img_width, &img_height);
-	check_map_name(game->character.img, 2);
+	game->character.img_left = mlx_xpm_file_to_image(game->mlx, PATH_CHARACTER_L,
+			&img_width, &img_height);
+	check_map_name(game->character.img_right, 2);
 }
 
 void	init_player_exit(t_game *game, int i, int j)

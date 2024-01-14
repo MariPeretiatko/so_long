@@ -6,7 +6,7 @@
 /*   By: mperetia <mperetia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/23 19:27:52 by mperetia          #+#    #+#             */
-/*   Updated: 2023/10/27 22:23:04 by mperetia         ###   ########.fr       */
+/*   Updated: 2024/01/14 13:31:04 by mperetia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ int	key_hook(int keycode, t_game *game)
 	if ((KEY_D == keycode || KEY_RIGHT == keycode)
 		&& (game->map.map[y * width + (x + 1)]) != '1')
 		move_right(game);
+		
 	if ((KEY_W == keycode || KEY_UP == keycode)
 		&& (game->map.map[(y - 1) * width + x]) != '1')
 		move_up(game);

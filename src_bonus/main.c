@@ -6,7 +6,7 @@
 /*   By: mperetia <mperetia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 01:10:59 by mperetia          #+#    #+#             */
-/*   Updated: 2023/10/29 20:01:28 by mperetia         ###   ########.fr       */
+/*   Updated: 2024/01/14 13:35:59 by mperetia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,12 @@ int	main(int ac, char **av)
 
 	if (ac != 2)
 	{
-		printf("problems with arguments");
+		ft_printf("problems with arguments");
 		exit(0);
 	}
 	if (!(chaeck_map_name(av[1])))
 	{
-		printf("Can't open file. The format is not supported!");
+		ft_printf("Can't open file. The format is not supported!");
 		exit(0);
 	}
 	if (ac == 2 && chaeck_map_name(av[1]))
