@@ -12,7 +12,9 @@ So_long is a simple 2D game project developed as part of the 42 school curriculu
 
 ## Introduction
 So_long is a project aimed at reinforcing fundamental programming concepts, including input/output, memory management, and basic game logic. The game is written in C and uses the MinilibX library for graphics rendering.
+
 ![big_map](https://github.com/MariPeretiatko/so_long/assets/83024504/a2746c89-f784-4759-b5c4-e224a1902f7d)
+
 ## Functionality
 - Display a window with a map where the player character can move.
 - Collect items placed on the map while avoiding obstacles and walls.
