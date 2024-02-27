@@ -2,13 +2,7 @@
 
 So_long is a simple 2D game project developed as part of the 42 school curriculum. The objective of the game is to navigate through a map, collect items, and avoid obstacles.
 
-<p align="center">
-  <img src="https://www.example.com/path/to/your/video.gif](https://github.com/MariPeretiatko/so_long/assets/83024504/dc0f422c-9ee3-442d-8733-ff749220bb22" alt="Your Video" width="50%">
-</p>
-
 ![small_map](https://github.com/MariPeretiatko/so_long/assets/83024504/dc0f422c-9ee3-442d-8733-ff749220bb22)
-
-
 
 ## Table of Contents
 - [Introduction](#introduction)
