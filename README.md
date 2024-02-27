@@ -24,13 +24,6 @@ So_long is a project aimed at reinforcing fundamental programming concepts, incl
 - Keep track of the player's score and the number of collected items.
 - Implement basic collision detection to handle interactions between the player character, items, and obstacles.
 
-## Project Structure
-- `so_long.c`: Main file containing the game's entry point and logic.
-- `map_parser.c`: Responsible for parsing the map from a file and initializing the game environment.
-- `game_utils.c`: Utility functions for game logic, such as handling player movement and collision detection.
-- `render.c`: Functions for rendering the game graphics and updating the display.
-- `libft/`: The libft library containing standard functions for string and memory manipulation.
-
 ## Usage
 1. Compile the source files along with any necessary libraries.
 2. Run the executable to start the game.
