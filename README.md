@@ -7,7 +7,6 @@ So_long is a simple 2D game project developed as part of the 42 school curriculu
 ## Table of Contents
 - [Introduction](#introduction)
 - [Functionality](#functionality)
-- [Project Structure](#project-structure)
 - [Usage](#usage)
 
 ## Introduction
